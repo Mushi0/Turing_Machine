@@ -1,0 +1,239 @@
+C1
+The first number compared to 1
+^=1 or ^>1
+blue is equal to 1 or blue is greater than 1
+
+C2
+The first number compared to 3
+^<3 or ^=3 or ^>3
+blue is less than 3 or blue is equal to 3 or blue is greater than 3
+
+C3
+The second number compared to 3
+[]<3 or []=3 or []>3
+yellow is less than 3 or yellow is equal to 3 or yellow is greater than 3
+
+C4
+The second number compared to 4
+[]<4 or []=4 or []>4
+yellow is less than 4 or yellow is equal to 4 or yellow is greater than 4
+
+C5
+If the first number is even or odd
+^ is even or ^ is odd
+-
+
+C6
+If the second number is even or odd
+[] is even or [] is odd
+-
+
+C7
+If the third number is even or odd
+° is even or ° is odd
+-
+
+C8
+The number of 1s in the code
+222 or 125 or 112 or 111
+zero 1s or one 1 or two 1s or three 1s
+
+C9
+The number of 3s in the code
+222 or 135 or 331 or 333
+zero 3s or one 3 or two 3s or three 3s
+
+C10
+The number of 4s in the code
+123 or 435 or 434 or 444
+zero 4s or one 4 or two 4s or three 4s
+
+C11
+The first number compared to the second number
+^<[] or ^=[] or ^>[]
+blue is less than yellow or blue is equal to yellow or blue is greater than yellow
+
+C12
+The first number compared to the third number
+^<° or ^=° or ^>°
+blue is less than purple or blue is equal to purple or blue is greater than purple
+
+C13
+The second number compared to the third number
+[]<° or []=° or []>°
+yellow is less than purple or yellow is equal to purple or yellow is greater than purple
+
+C14
+Which colour's number is smaller than either of the others
+^<°&[] or []<^&° or °<[]&^
+blue is smaller than purple and yellow or yellow is smaller than blue and purple or purple is smaller than yellow and blue
+
+C15
+Which colour's number is larger than either of the others
+^>°&[] or []>^&° or °>[]&^
+blue is larger than purple and yellow or yellow is larger than blue and purple or purple is larger than yellow and blue
+
+C16
+The number of even numbers compared to the number of odd numbers
+even > odd or even < odd
+there are more even numbers(e.g: 245) or there are more odd numbers(e.g: 332)
+
+C17
+How many even numbers there are in the code
+135 or 323 or 432 or 242
+zero even numbers or one even number or two even numbers or three even numbers
+
+C18
+If the sum of all the numbers is even or odd
+^+°+[]=even or ^+°+[]=odd
+the sum of the numbers is even or the sum of the numbers is odd
+
+C19
+The sum of the first and the second numbers compared to 6
+^+[]<6 or ^+[]=6 or ^+[]>6
+the sum of blue and yellow is less than 6 or the sum of blue and yellow is equal to 6 or the sum of blue and yellow is greater than 6
+
+C20
+If a number repreates itself in the code
+222 of 112 or 125
+a triple number or a double number or no repetition
+
+C21
+If there is a number present exactly twice
+134|222 or 131
+no pairs or a pair
+
+C22
+If the 3 numbers in the code are in ascending order, descending order, or no order
+135 or 421 or 231
+ascending order or descending order or no order
+
+C23
+The sum of all numbers compared to 6
+^+[]+°<6 or ^+[]+°=6 or ^+[]+°>6
+the sum of the numbers is less than 6 or the sum of the numbers is equal to 6 or the sum of the numbers is greater than 6
+
+C24
+If there is a sequence of ascending numbers
+234 or 233 or 135
+3 numbers in ascending order or 2 numbers in  ascending order or no numbers in ascending order
+
+C25
+If there is a sequence of ascending or descending numbers
+135|531 or 235|532 or 234|432
+no sequence of numbers in ascending or descending order or 2 numbers in ascending or descending order or 3 numbers in ascending or descending order
+
+C26
+A specific number is less than 3
+^<3 or []<3 or °<3
+blue is less than 3 or yellow is less than 3 or purple is less than 3
+
+C27
+A specific number is less than 4
+^<4 or []<4 or °<4
+blue is less than 4 or yellow is less than 4 or purple is less than 4
+
+C28
+A specific number is equal to 1
+^=1 or []=1 or °=1
+blue is equal to 1 or yellow is equal to 1 or purple is equal to 1
+
+C29
+A specific number is equal to 3
+^=3 or []=3 or °=3
+blue is equal to 3 or yellow is equal to 3 or purple is equal to 3
+
+C30
+A specific number is equal to 4
+^=4 or []=4 or °=4
+blue is equal to 4 or yellow is equal to 4 or purple is equal to 4
+
+C31
+A specific number is greater than 1
+^>1 or []>1 or °>1
+blue is greater than 1 or yellow is greater than 1 or purple is greater than 1
+
+C32
+A specific number is greater than 3
+^>3 or []>3 or °>3
+blue is greater than 3 or yellow is greater than 3 or purple is greater than 3
+
+C33
+A specific number is even or odd
+^ is even or ^ is odd | [] is even or [] is odd | ° is even or ° is odd
+-
+
+C34
+Which number is the smallest number (or is tied for the smallest number)
+^<=°&[] or []<=^&° or °<=[]&^
+blue is the smallest or is equal to purple and yellow or yellow is the smallest or is equal to blue and purple or purple is the smallest or is equal to yellow and blue
+
+C35
+Which number is the largest number (or is tied for the smallest number)
+^>=°&[] or []>=^&° or °>=[]&^
+blue is the largest or is equal to purple and yellow or yellow is the largest or is equal to blue and purple or purple is the largest or is equal to yellow and blue
+
+C36
+The sum of all the numbers is multiple of 3 4 or 5
+^+[]+°=3x or ^+[]+°=4x or ^+[]+°=5x
+is a multiple of 3 or is a multiple of 4 or is a multiple of 5
+
+C37
+The sum of 2 specific numbers is equal to 4
+^+[]=4 or ^+°=4 or []+°=4
+the sum of blue and yellow is equal to 4 or the sum of blue and purple is equal to 4 or the sum of yellow and purple is 4
+
+C38
+The sum of 2 specific numbers is equal to 6
+^+[]=6 or ^+°=6 or []+°=6
+the sum of blue and yellow is equal to 6 or the sum of blue and purple is equal to 6 or the sum of yellow and purple is 6
+
+C39
+The number of one specific number compared to 1
+^=1 or ^>1 | []=1 or []>1 | °=1 or °>1
+blue is equal to 1 or blue is greater than 1 | yellow is equal to 1 or yellow is greater than 1 | purple is equal to 1 or purple is greater than 1
+
+C40
+The number of one specific number compared to 3
+^<3 or ^=3 or ^>3 | []<3 or []=3 or []>3 | °<3 or °=3 or °>3
+blue is less than 3 or equal to 3 or greater than 3 | yellow is less than 3 or equal to 3 or greater than 3 | purple is less than 3 or equal to 3 or greater than 3
+
+C41
+The number of one specific number compared to 4
+^<4 or ^=4 or ^>4 | []<4 or []=4 or []>4 | °<4 or °=4 or °>4
+blue is less than 4 or equal to 4 or greater than 4 | yellow is less than 4 or equal to 4 or greater than 4 | purple is less than 4 or equal to 4 or greater than 4
+
+C42
+Which number is the smallest or greatest
+^<°&[] or ^>°&[] | []<^&° or []>^&° | °<[]&^ or °>[]&^
+blue is the smallest or the largest | yellow is the smallest or the largest | purple is the smallest or the largest
+
+C43
+The first number compared to another specific numbers
+^<[] or ^<° | ^=[] or ^=° | ^>[] or ^>°
+blue is less than yellow or purple | blue is equal to yellow or purple | blue is greater than yellow or purple
+
+C44
+The second number compared to another specific numbers
+[]<^ or []<° | []=^ or []=° | []>^ or []>°
+yellow is less than blue or purple | yellow is equal to blue or purple | yellow is greater than blue or purple
+
+C45
+How many 1s or how many 3s there are in the code
+232 or 513 | 331 or 351 | 151 or 533
+zero 1s or zero 3s | one 1 or one 3 | two 1s or two 3s
+
+C46
+How many 3s or how many 4s there are in the code
+252 or 512 | 113 or 451 | 353 or 544
+zero 3s or zero 4s | one 3 or one 4 | two 3s or two 4s
+
+C47
+How many 1s or how many 4s there are in the code
+232 or 512 | 331 or 451 | 151 or 544
+zero 1s or zero 4s | one 1 or one 4 | two 1s or two 4s
+
+C48
+One specific number compared to another specific number
+^<[] or ^=[] or ^>[] | ^<° or ^=° or ^>° | []<° or []=° or []>°
+blue is less than or equal to or greater than yellow | blue is less than or equal to or greater than purple | yellow is less	than or equal to or greater than purple
